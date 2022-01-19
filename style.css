@@ -161,6 +161,17 @@ a {
   flex-direction: column;
 }
 
+.thumb {
+  gap: 20px;
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+
+.pepsi {
+width: 184px;
+height: 350px;
+} 
+
 .textbox {
   order: 2;
 }
