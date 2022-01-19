@@ -1,6 +1,5 @@
 
 body {
-  background-color: #0062be;
   font-family: 'Courier New', Courier, monospace;
   margin: 0px;
   padding: 0px;
@@ -28,7 +27,10 @@ a {
 }
 
 .sec {
+  box-sizing: border-box;
+  background-color: #0062be;
   padding-bottom: 100px;
+  min-height: 100vh;
 }
 
 .header {
