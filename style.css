@@ -1,0 +1,189 @@
+
+body {
+  background-color: #0062be;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0px;
+  padding: 0px;
+}
+
+h1, p, span {
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 600;
+  color: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
+
+.sec {
+  padding-bottom: 100px;
+}
+
+.header {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.header img {
+  min-width: 60px;
+  max-width: 60px;
+}
+.header ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 0px;
+}
+.header a {
+  font-size: 1.2rem;
+  padding: 8px 16px;
+}
+
+.content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0px 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
+}
+.textbox {
+  align-self: flex-end;
+  max-width: 550px;
+}
+
+.textbox h1 {
+  color: #fff;
+  font-size: 4rem;
+  text-transform: uppercase;
+  line-height: 1;
+  padding-bottom: 40px;
+}
+.textbox span {
+  font-size: 6rem;
+}
+.textbox p {
+  color: #fff;
+  line-height: 1.5;
+  padding-bottom: 40px;
+}
+.botao {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  background-color: #fff;
+  color: #1e1e1e;
+  padding: 10px 20px;
+  border-radius: 40px;
+}
+
+.imgbox {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.thumb {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding-bottom: 60px;
+  padding-top: 20px;
+}
+
+.thumb li {
+  display: inline-block;
+  transition: 0.5s;
+  cursor: pointer;
+
+}
+.thumb li:hover {
+  transform: scale(0.8);
+  /* transform: translateY(-15px); */
+}
+.thumb img {
+  max-width: 40px;
+
+}
+
+.redes {
+  filter: invert(1);
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding-top: 40px;
+}
+
+@media (Max-width: 900px) {
+  .textbox h1 {
+    font-size: 2rem;
+  }
+  .textbox span {
+    font-size: 4rem;
+  }
+  .textbox p {
+    color: #fff;
+    line-height: 1.2;
+    line-height: 1.5;
+  }
+}
+
+@media (max-width: 800px) {
+  .content {
+    gap: 20px;
+  }
+  .botao {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 700px) {
+.content {
+  flex-direction: column;
+}
+
+.textbox {
+  order: 2;
+}
+.textbox h1 {
+  font-size: 3rem;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.textbox p {
+  padding-bottom: 20px;
+}
+}
+
+@media (max-width: 600px) {
+  .header {
+    padding: 10px;
+  }
+  .header ul {
+    gap: 10px;
+  }
+  .header a {
+    font-size: 0.9rem;
+      padding: 8px 10px;
+  }
+}
+
+
+
+
