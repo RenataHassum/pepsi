@@ -215,6 +215,9 @@ height: 350px;
 place-self: center;
 margin-top: 20px;
  }
+ .textbox h1 {
+  padding-top: 0px;
+}
 }
 
 
