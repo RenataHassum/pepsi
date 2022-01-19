@@ -29,7 +29,7 @@ a {
 .sec {
   box-sizing: border-box;
   background-color: #0062be;
-  padding-bottom: 40px;
+  padding: 30px 0px;
   min-height: 100vh;
   transition: 0.5s;
 }
