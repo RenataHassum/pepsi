@@ -70,6 +70,8 @@ a {
 .textbox {
   align-self: flex-end;
   max-width: 550px;
+  display: flex;
+  flex-direction: column;
 }
 
 .textbox h1 {
@@ -88,6 +90,8 @@ a {
   padding-bottom: 40px;
 }
 .botao {
+  text-align: center;
+  max-width: 280px;
   font-size: 1.2rem;
   text-transform: uppercase;
   background-color: #fff;
@@ -128,9 +132,12 @@ a {
 .redes {
   filter: invert(1);
   display: flex;
+  margin-left: 200px;
+  margin-right: 200px;
+  justify-content:space-evenly;
   align-items: center;
-  gap: 50px;
-  padding-top: 40px;
+  gap: 20px;
+  padding-top: 60px;
 }
 
 @media (Max-width: 900px) {
@@ -196,6 +203,18 @@ height: 350px;
     font-size: 1.01rem;
       padding: 8px 10px;
   }
+  .content {
+   justify-content: flex-end;
+ }
+ .redes {
+   justify-content: center;
+   gap: 45px;
+   padding-top: 40px;
+ }
+ .textbox a {
+place-self: center;
+margin-top: 20px;
+ }
 }
 
 
